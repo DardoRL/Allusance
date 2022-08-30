@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    float: left;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #873D48;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+header.contenedor{
+    display: table;
+}
+.icon-wine{
+    padding: 10px;
+}
+.icon-menu{
+    padding: 5px;
+}
